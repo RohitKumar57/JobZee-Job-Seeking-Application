@@ -681,9 +681,9 @@ p {
   align-items: center;
 }
 .jobDetail .container .banner {
-  width: 100%;
-  min-height: 767px;
-  padding: 50px 0;
+  width: 90%;
+  min-height: 567px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -948,8 +948,13 @@ p {
   display: flex;
   gap: 5vw;
 }
-.job_post .container form button {
+.job_post .container form .btn {
+  display: flex;
   width: 100%;
+  justify-content: center;
+}
+.job_post .container form button {
+  width: 60%;
   background: #2d5649;
   font-size: 20px;
   padding: 10px 30px;
@@ -966,6 +971,7 @@ p {
 }
 @media (max-width: 630px) {
   .job_post .container {
+    padding: 0px 2%;
     min-width: 100%;
   }
   .job_post .container form .wrapper,
