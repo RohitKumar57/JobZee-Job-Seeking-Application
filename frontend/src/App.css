@@ -449,7 +449,7 @@ p {
 .categories .banner {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 35px;
   padding: 20px 0;
 }
@@ -521,12 +521,14 @@ p {
 }
 .companies .container .banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
   padding: 20px 0;
 }
 .companies .container .banner .card {
   width: 340px;
+  margin: 3px;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -578,7 +580,7 @@ p {
 }
 @media (max-width: 1100px) {
   .companies .container .banner {
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
     align-items: center;
   }
